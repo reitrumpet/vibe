@@ -1,0 +1,591 @@
+
+
+
+.menu-menu-top-container ul{
+	list-style: none;
+}
+
+.menu-menu-top-container ul li{
+	display: inline;
+}
+.menu-menu-top-container ul li a{
+	
+}
+/*Final atualização*/
+
+body{
+	font-family: centuryGothic !important;
+}
+
+.logoAut{
+	height: 100px;
+	width: 220.58px;
+}
+
+.logoADM{
+	height: 50px;
+	width: 110.41px;
+}
+
+.logo{
+	height: 39.47px !important;
+	width: 98.19px !important;
+}
+
+.logoVibeSocial{
+	width: 300px !important;
+	height: 132.13px !important;
+}
+
+.logoLeva{
+	width: 100px;
+	height: 38.7px;
+}
+
+.parceiro{
+	width: 300px !important;
+	height: 300px !important;
+}
+
+.navbar-brand{
+	padding-top: 0.8125rem !important;
+}
+
+.logoADM1{
+	height: 50px;
+}
+
+li:hover{
+	background-color: #ff6600;
+}
+
+li.active{
+	background-color: #ff6600;
+
+}
+li.actived{
+	background-color: #c5550b;
+}
+
+a:hover{
+	color:#ffffff !important;
+}
+
+a.active{
+	color:#ffffff !important;	
+}
+
+.link{
+	color: #ffffff !important;
+	text-decoration: none;
+}
+
+.link:hover{
+	text-decoration: none;
+}
+
+.link-texto{
+
+}
+.link-texto:hover{
+	color: #ff6600 !important;
+}
+
+.fundoRodape1{
+	background-color: #880094;
+	height: 100px;
+}
+
+.fundoRodape2{
+	background-color: #800080;
+	padding-bottom: 10px;
+	/*height: 70px;*/
+}
+
+.fundoBranco{
+	background-color: #ffffff;
+}
+
+.caixa400{
+	/*height: 400px;*/
+}
+
+.caixa500{
+	/*height: 500px;*/
+}
+.caixa600{
+	/*height: 600px;*/
+}
+
+.zerar{
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	box-sizing: inherit !important;
+}
+
+.zerarIndicator{
+   /* position: inherit !important; 
+    right: unset !important; 
+    bottom: unset !important; 
+    left: unset !important;
+    display: inherit !important;
+    display: inherit !important; 
+    -ms-flex-pack: inherit !important;
+    justify-content: inherit !important; 
+    padding-left: unset !important; 
+    margin-right: 0% !important; 
+    margin-left: 0% !important; 
+    list-style: none !important;*/
+}
+
+.zerarIndicator li{
+	box-sizing: inherit !important; 
+	-ms-flex: inherit !important;
+	flex: inherit !important; 
+	width: inherit !important;
+	height: inherit !important;
+	margin-right: 0px !important;
+	margin-left: 0px !important; 
+	text-indent: 0px !important; 
+}
+/*Parallax*/
+<?php 
+include("../../openDB.php");
+$sqlParallax = "SELECT `id`, `url_arquivo`, `descricao` FROM sobrenos WHERE id=1";
+$queryParallax = mysqli_query($strcon, $sqlParallax) or die(mysqli_error());
+
+?>
+.Parallax1{
+	background-image: url(../../adm/<?php while ($rowParallax = mysqli_fetch_array($queryParallax)) {echo $rowParallax['url_arquivo'];} 
+mysqli_close($strcon);
+?>
+);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+	height: 480px;/*
+	background-size: 100% 100%;*/
+}
+
+.Parallax2{
+	background-image: url(../img/contato.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 300px;/*
+	background-size: 100% 100%;*/
+}
+
+
+.lg2{
+	padding: 1rem 3rem !important;
+}
+
+/*Menu retratil*/
+.navbar{
+	
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	padding: 0 0 0 0px;
+	box-sizing: border-box;
+	transition: .5s;
+}
+
+.navbar.hide{
+	transform: translateY(-100%);
+
+}
+
+.navbar .channel{
+	position: relative;
+}
+
+.navbar ul{
+	margin: 0;
+	padding-left: 10px;
+	display: flex;
+	float: right;
+	background: rgba(255,255,255,0.9);
+	
+}
+
+.navbar ul li{
+	list-style: none;
+	line-height: 80px;
+	text-align: center;
+}
+
+.navbar ul li a{
+	display: block;
+	padding: 0 0px;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.bgNav{
+	background: rgba(255,255,255,1);
+}
+/*Carousel Planos*/
+.ativo1{
+
+}
+
+.tituloPlano{font-size: 25px; font-weight: bold;}
+
+.ativo1:hover{
+	background-color: #ff6600 !important;
+	color: #ffffff !important;
+}
+
+.ativo1.active{
+	background-color: #ff6600 !important;
+	color: #ffffff !important;
+}
+
+.bt1{
+	background-color: #ff6600 !important;
+	color: #ffffff !important;
+}
+
+.ativo2{
+
+}
+
+.ativo2:hover{
+	background-color: #880094 !important;
+	color: #ffffff !important;
+}
+
+.ativo2.active{
+	background-color: #880094 !important;
+	color: #ffffff !important;
+}
+
+.bt2{
+	background-color: #880094 !important;
+	color: #ffffff !important;
+}
+
+.ativo3{
+
+}
+
+.ativo3:hover{
+	background-color: #cc5100 !important;
+	color: #ffffff !important;
+}
+
+.ativo3.active{
+	background-color: #cc5100 !important;
+	color: #ffffff !important;
+}
+
+.bt3{
+	background-color: #cc5100 !important;
+	color: #ffffff !important;
+}
+
+.ativo4{
+
+}
+
+.ativo4:hover{
+	background-color: #44004a !important;
+	color: #ffffff !important;
+}
+
+.ativo4.active{
+	background-color: #44004a !important;
+	color: #ffffff !important;
+}
+
+.bt4{
+	background-color: #44004a !important;
+	color: #ffffff !important;
+}
+
+.navPlanos{
+	margin-left: 0% !important;
+	list-style: none;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+}
+
+.navPlanos li{
+	cursor: pointer;
+}
+.navPlanos li.active{
+	color: #ffffff;
+}
+
+.visto{
+	width: 15px;
+	height: 15px;
+}
+/* Carousel topo */
+.b200{
+	bottom: 200px !important;
+}
+
+.b20{
+	bottom: 20px !important;
+}
+
+.b100{
+	bottom: 100px !important;
+}
+/*______________----_____________*/
+.bTopo{
+	margin-left: auto;
+	margin-right: auto;
+	display: unset !important;
+	z-index: 14 !important;
+}
+
+.bTopo li{
+	height: 105px !important;
+	background-color: #ebe1f2;
+	border-top: unset !important;
+	border-bottom: unset !important;
+	overflow: hidden;
+	width: 20px !important;
+	transition: width 1s !important;
+	/*margin-left: -100px;*/
+	/*transition: margin-left 1s;*/
+}
+.bTopo li:hover{
+	/*margin-left: 0px;*/
+	width: 150px !important;
+}
+
+.tituloItem{
+	font-size: 15px;
+	margin: 0px 0px 0px 1010px;
+	padding: 40px 0px 0px 0px;
+}
+
+.mf0{
+	margin-left: 0% !important;
+}
+
+/*--------------------------------*/
+
+/*News animação*/
+.mov{
+	transition: margin-top 0.5s;
+}
+
+.mov:hover{
+	margin-top: -10px !important;
+}
+
+/*Linha*/
+
+.linha{
+	border-top: solid #880094;
+	opacity: .5;
+	margin-top: 50px;
+}
+
+.cinzaPacotes{
+	color: #111111;
+}
+
+.laranjaPacotes{
+	color: #ff8c00;
+}
+
+.card{
+	
+}
+.card .card-body{
+	height: 80%;
+}
+
+.card-text{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4; /* number of lines to show */
+	-webkit-box-orient: vertical;
+}
+
+.card-deck{margin-left: 5px !important;}
+
+/*Sombra*/
+.sombra{
+	-webkit-box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.39);
+	-moz-box-shadow:    2px 2px 3px 0px rgba(50, 50, 50, 0.39);
+	box-shadow:         2px 2px 3px 0px rgba(50, 50, 50, 0.39);
+}
+
+.borderBottom{
+	border-bottom:solid 1px rgb(136,0,148);
+}
+.borderBottom5px{
+	border-bottom:solid 5px;
+}
+
+.borderRight{
+	border-right:solid 1px;
+}
+.borderRight3px{
+	border-right:solid 3px rgba(136,0,148,0.3);
+}
+
+.plano{
+	text-align: center;
+}
+
+/*Fontes*/
+@font-face {
+	font-family: centuryGothic;
+	src: url('fonts/century_gothic/GOTHIC.TTF');
+}
+
+@font-face {
+	font-family: gothamBoldItalic;
+	src: url('fonts/Gotham/GothamBookItalic.ttf');
+}
+
+.ftGothamBI{font-family: gothamBoldItalic;}
+
+@font-face {
+	font-family: gothamItalic;
+	src: url('fonts/Gotham/GothamItalic.ttf');
+}
+
+.ftGothamI{font-family: gothamItalic;}
+
+@font-face {
+	font-family: gothamLight;
+	src: url('fonts/Gotham/GothamLight.ttf');
+}
+
+.ftGothamL{font-family: gothamLight;}
+/*Facilitador Margin top*/
+.top-10{margin-top: -10px;} .top-35{margin-top: -35px;} 
+.top5{ margin-top: 5px; }
+.top10{ margin-top: 10px; } .top15{ margin-top: 15px; } .top20{ margin-top: 20px; } .top30{ margin-top: 30px; }
+.top40{ margin-top: 40px; } .top47{ margin-top: 47px; } .top50{ margin-top: 50px; } .top60{ margin-top: 60px; }
+.top70{ margin-top: 70px; } .top80{ margin-top: 80px; } .top90{ margin-top: 90px; }
+.top100{ margin-top: 100px; } .top110{ margin-top: 110px; }
+.top150{ margin-top: 150px; } 
+.top190{ margin-top: 190px; } 
+
+/*Facilitador Margin bottom*/
+.bot10{margin-bottom: 10px;}
+
+/*Facilitador Padding top*/
+.padTop10{padding-top: 10px;} .padTop15{padding-top: 15px;}
+.padTop20{padding-top: 20px;} .padTop25{padding-top: 25px;}
+.padTop30{padding-top: 30px;}
+.padTop40{padding-top: 40px;}
+.padTop75{padding-top: 75px;} .padTop98{padding-top: 98px;}
+
+/*Facilitador Padding Bottom*/
+.padBot10{padding-bottom: 10px;} .padBot15{padding-bottom: 15px;}
+.padBot20{padding-bottom: 20px;} .padBot25{padding-bottom: 25px;}
+.padBot30{padding-bottom: 30px;} .padBot35{padding-bottom: 35px;}
+.padBot40{padding-bottom: 40px;}
+.padBot50{padding-bottom: 50px;}
+.padBot60{padding-bottom: 60px;}
+
+.lineheight10{line-height: 10px;}
+.lineheight20{line-height: 20px;}
+.lineheight30{line-height: 30px;}
+.lineheight40{line-height: 40px;}
+
+/*Facilitador BGColor*/
+.BGAzul{
+	background-color: #01579b ;
+}
+
+.BGCinza{
+	background-color: #ebe1f2 !important;
+}
+
+.BGBranco{
+	background-color: #ffffff !important;
+}
+
+.BGLaranja{
+	background-color:#ff6600 !important;
+}
+
+
+/*Facilitador FontColor*/
+.fontAzul{
+	color:#01579b !important;
+}
+
+.fontAzulVibe{
+	color: #880094 !important;
+}
+
+.fontBranca{
+	color: #ffffff !important;
+}
+
+
+/*Formatadore de texto (Bold, Italic, justificado)*/
+.negrito{
+	font-weight: bolder !important;
+}
+
+.italico{
+	font-style: italic !important;
+}
+
+.justificado{
+	text-align: justify;
+}
+
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
+
+.centralizado{
+	text-align: center;
+}
+/*Facilitador ftTamanho*/
+.ftTamanho10{font-size: 10px;} .ftTamanho15{font-size: 15px;} .ftTamanho17{font-size: 17px;}
+.ftTamanho20{font-size: 20px;} .ftTamanho25{font-size: 25px;}
+.ftTamanho30{font-size: 30px !important;} .ftTamanho35{font-size: 35px !important;} .ftTamanho40{font-size: 40px;} .ftTamanho45{font-size: 45px;}
+.ftTamanho50{font-size: 50px;}
+
+/*Facilitador Border*/
+
+.borderNone{
+	border-color: transparent !important;
+}
+
+/*Outros facilitadores*/
+
+.pInherit{
+	position: inherit !important;
+}
+
+.z-1{
+	z-index: -1;
+}
+
+.z1{
+	z-index: 1 !important;
+}
+
+.z15{
+	z-index: 15;
+}
