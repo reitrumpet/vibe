@@ -4,9 +4,9 @@
 <div class="container top20">
 	<div class="row justificado">
 		<?php 
-							// Se houver algum post
+							
 		if( have_posts() ):
-								// Enquanto houver posts, mostre-os pra gente
+								
 			while( have_posts() ): the_post();
 
 				?>
@@ -23,7 +23,7 @@
 		else:
 			?>
 
-			<p><?php _e( 'There&rsquo;s nothing yet to be displayed...', 'wpcurso' ); ?></p>
+			<p><?php _e( 'There&rsquo;s nothing yet to be displayed...', 'vibe' ); ?></p>
 
 		<?php endif; ?>
 	</div>

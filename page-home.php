@@ -26,7 +26,7 @@
 			</div>
 			<div class="row">
 				<div class="col-12 col-md-12 col-lg-12 col-xl-12 text-end padBot15">
-					<button type="button" class="btn btn-primary btn-lg negrito BGLaranja borderNone"><a class="link" href="blog">+</a></button>
+					<button type="button" class="btn btn-primary btn-lg negrito btnMais borderNone"><a class="link" href="blog">+</a></button>
 				</div>
 			</div>
 		</div>

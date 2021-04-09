@@ -55,6 +55,19 @@ body{
 	height: 50px;
 }
 
+.itens-do-plano{
+	padding: 0px 0px 0px 0px !important;
+
+}
+
+.itens-do-plano li:hover{
+	background-color: #ffffff !important;
+}
+.itens-do-plano li{
+	list-style: none;
+	
+}
+
 li:hover{
 	background-color: #ff6600;
 }
@@ -255,6 +268,20 @@ background-attachment: fixed;
 	color: #ffffff !important;
 }
 
+.btnPlanos{
+	background-color:#ff6600 !important;
+}
+.btnPlanos:hover{
+	background-color:#c5550b !important;
+}
+
+.btnMais{
+	background-color:#ff6600 !important;
+}
+.btnMais:hover{
+	background-color:#c5550b !important;
+}
+
 .ativo2{
 
 }
@@ -444,6 +471,7 @@ background-attachment: fixed;
 
 .plano{
 	text-align: center;
+	/*margin-left: 10px;*/
 }
 
 /*Fontes*/
