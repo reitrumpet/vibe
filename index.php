@@ -1,15 +1,28 @@
 <?php get_header(); ?>
 
 <div class="container">
-	<div class="row col-12 col-md-12 text-center ftTamanho45 negrito padBot15 fontAzulVibe">
-		Blog
-	</div>
+	<div class="container">	
+		<div class="row">	
+			<div class="col-12 col-md-12 fontAzulVibe negrito padBot15 floatLeft">
+				<div class="ftTamanho45 floatLeft borderBottom5px col-5">
+					Blog
+				</div>
+				<div class="floatLeft borderBottom top47 col-7">
+					&nbsp;
+				</div>
+			</div>
+
+		</div>
+	</div>	
 	<div class="row col-md-12">
 
 		<?php
 	// Se houver algum post
 		if(have_posts()):
-			query_posts( 'posts_per_page=9' );
+			// query_posts( 'posts_per_page=9' );
+			// get_posts( array('category'=>'parceiros', 'posts_per_page'=>'9'));
+			// query_posts( array( 'category' => array(1), 'posts_per_page' => 3, 'orderby' => 'title', 'order' => 'DESC' ) );
+			query_posts( array('category_name'  => 'geral', 'posts_per_page' => 9 ) );
 	// Enquanto houver posts, mostre-os pra gente
 			while(have_posts()):the_post();
 				?>
