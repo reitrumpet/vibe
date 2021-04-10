@@ -282,6 +282,14 @@ background-attachment: fixed;
 	background-color:#c5550b !important;
 }
 
+.form-btn{
+	background-color:#ff6600 !important;
+	color: #ffffff !important;
+}
+.form-btn:hover{
+	background-color:#c5550b !important;
+}
+
 .ativo2{
 
 }
@@ -616,4 +624,63 @@ background-attachment: fixed;
 
 .z15{
 	z-index: 15;
+}
+
+.input-nome input{
+	border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.input-nome input:focus{
+	border-color: #719ECE;
+    box-shadow: 0 0 10px 0 #719ECE;
+}
+
+.input-email input{
+	border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.input-email input:focus{
+	border-color: #719ECE;
+    box-shadow: 0 0 10px 0 #719ECE;
+}
+
+.input-telefone input{
+	border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.input-telefone input:focus{
+	border-color: #719ECE;
+    box-shadow: 0 0 10px 0 #719ECE;
+}
+
+.input-assunto input{
+	border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.input-assunto input:focus{
+	border-color: #719ECE;
+    box-shadow: 0 0 10px 0 #719ECE;
+}
+
+.input-mensagem textarea{
+	border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+}
+
+.input-mensagem textarea:focus{
+	border-color: #719ECE;
+    box-shadow: 0 0 10px 0 #719ECE;
+}
+
+.mapa iframe{
+	width: 100% !important;
 }
