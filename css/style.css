@@ -199,12 +199,12 @@ background-attachment: fixed;
 
 /*Menu retratil*/
 .navbar{
-	
+	position: fixed !important;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 80px;
-	padding: 0 0 0 0px;
+	padding: 0 0 0 100px;
 	box-sizing: border-box;
 	transition: .5s;
 }
@@ -220,7 +220,7 @@ background-attachment: fixed;
 
 .navbar ul{
 	margin: 0;
-	padding-left: 10px;
+	padding: 0;
 	display: flex;
 	float: right;
 	background: rgba(255,255,255,0.9);
@@ -235,12 +235,12 @@ background-attachment: fixed;
 
 .navbar ul li a{
 	display: block;
-	padding: 0 0px;
+	padding: 0 30px;
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .bgNav{
@@ -615,15 +615,21 @@ background-attachment: fixed;
 }
 
 .z-1{
-	z-index: -1;
+	z-index: -1 !important;
 }
 
 .z1{
 	z-index: 1 !important;
 }
+.z2{
+	z-index: 2 !important;
+}
+.z4{
+	z-index: 4 !important;
+}
 
 .z15{
-	z-index: 15;
+	z-index: 15 !important;
 }
 
 .input-nome input{
@@ -684,3 +690,4 @@ background-attachment: fixed;
 .mapa iframe{
 	width: 100% !important;
 }
+

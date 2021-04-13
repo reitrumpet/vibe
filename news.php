@@ -1,4 +1,4 @@
-<div class="row col-md-12">
+<div class="row col-md-12 z1">
 
 		<?php
 	// Se houver algum post

@@ -1,14 +1,11 @@
 <?php $url = add_query_arg(array(), $wp->request); ?>
-<div class="container-fluid">
+<div class="container-fluid ">
 	<div class="row">
-		<nav class="navbar navbar-expand-lg navbar-light col-12 bgNav">
+		<nav class="navbar navbar-expand-lg navbar-light col-12 bgNav z2">
 			<div class="col-2 logo">
 				<?php the_custom_logo(); ?>
 			</div>
-			<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button> -->
-
+			
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>

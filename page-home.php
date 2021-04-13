@@ -1,7 +1,7 @@
 <?php get_header(); ?>
-<div class="container-fluid">
+<div class="container-fluid top50">
 	<div class="row">
-		<div class="banner col-lg-12 col-xl-12">
+		<div class="banner col-lg-12 col-xl-12 z1">
 
 			<div class="">
 				<!-- <?php include("banner-top.php"); ?> -->
@@ -14,7 +14,7 @@
 </div>
 
 
-<div class="container">
+<div class="container ">
 	<div class="row fontAzulVibe">
 		<div class="container linha"></div>
 		<div class="col-12 col-md-12 text-center ftTamanho40 negrito padBot15">
