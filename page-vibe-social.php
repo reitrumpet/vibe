@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<div class="container top20">
+<div class="container top50">
 	<div class="row justificado">
 		<?php 
 							

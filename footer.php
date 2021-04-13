@@ -41,17 +41,5 @@
 	</div>
 </div>
 
-
-<script type="text/javascript">
-	var zero = 0;
-	(function(){
-		$(window).on('scroll', function(){
-			$('.navbar').toggleClass('hide', $(window).scrollTop() > zero);
-			zero = $(window).scrollTop();
-		})
-	})
-
-</script>
-
 </body>
 </html>

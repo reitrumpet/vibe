@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container">	
+<div class="container top50">	
 	<div class="row padBot20">	
 		<div class="col-12 col-md-12 fontAzulVibe negrito padBot15 floatLeft">
 			<div class="ftTamanho45 floatLeft borderBottom5px col-5">
@@ -26,7 +26,7 @@
 							?>
 							<div class="plano col-12 col-md-12 col-xl-4 floatLeft padTop10">
 								<div class="text-center">
-									<h3 class="BGCinza"><?php the_title(); ?></h3>
+									<h4 class="BGCinza"><?php the_title(); ?></h4>
 									<h5 class=""><?php the_content(); ?></h5>
 									<div class="valorPlano BGCinza">
 										<div class="ftTamanho35">
@@ -35,7 +35,7 @@
 										<p class="fidelidadePlano">por mês</p>
 									</div>
 								</div>
-								<div class="descricaoPlano justificado">
+								<div class="descricaoPlano">
 									<div class="itemPacote ftTamanho15">
 
 										<ul class="itens-do-plano">	
@@ -92,7 +92,7 @@
 								?>
 								<div class="plano col-12 col-md-12 col-xl-4 floatLeft padTop10">
 									<div class="text-center">
-										<h3 class="BGCinza"><?php the_title(); ?></h3>
+										<h4 class="BGCinza"><?php the_title(); ?></h4>
 										<h5 class=""><?php the_content(); ?></h5>
 										<div class="valorPlano BGCinza">
 											<div class="ftTamanho35">
@@ -101,7 +101,7 @@
 											<p class="fidelidadePlano">por mês</p>
 										</div>
 									</div>
-									<div class="descricaoPlano justificado">
+									<div class="descricaoPlano">
 										<div class="itemPacote ftTamanho15">
 
 											<ul class="itens-do-plano">	

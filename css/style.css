@@ -30,6 +30,7 @@ body{
 .logo{
 	height: 39.47px !important;
 	width: 98.19px !important;
+	margin-right: 10px !important;
 }
 
 .logoVibeSocial{
@@ -691,3 +692,6 @@ background-attachment: fixed;
 	width: 100% !important;
 }
 
+.visibility-hidden{
+	visibility: hidden !important;
+}
