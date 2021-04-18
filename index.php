@@ -40,18 +40,30 @@
 						<p>Publicado em <?php echo get_the_date(); ?></p>
 						<p class="card-text"><?php the_field('resumo'); ?></p>
 						<div class="card-footer text-muted">
-							<a href="<?php the_permalink() ?>" class="btn btn-primary">Leia mais !</a>
+							<a href="<?php the_permalink() ?>" class="btn btn-primary btnBlog">Leia mais !</a>
 						</div>
 
 					</div>
 				</div>
 
+
+
 				<?php 
 			endwhile;
+			?>
+			<div class="row col-12 text-end">
+				<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+			</div>
+
+			<?php
 		else:
 			?>
 			<p>Nenhuma notícia cadastrada !</p>
 		<?php endif; ?>
+		
+		
+
+
 	</div>
 </div>
 <div class="container">&nbsp;</div>

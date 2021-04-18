@@ -63,7 +63,7 @@
 						<div class="card-body">
 							<h3 class="card-title negrito text-truncate" title="<?php the_title(); ?>"><?php the_title(); ?></h3>
 							<div class="card-footer text-muted">
-								<a href="<?php the_permalink() ?>" class="btn btn-primary">Saiba mais !</a>
+								<a href="<?php the_permalink() ?>" class="btn btn-primary btnMais">Saiba mais !</a>
 							</div>
 
 						</div>

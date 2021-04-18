@@ -1,5 +1,6 @@
 
-var zero = 0;
+jQuery(document).ready(function($) {
+	var zero = 0;
 // document.write zero;
 $(document).ready(function(){
 	$(window).on('scroll', function(){
@@ -7,3 +8,4 @@ $(document).ready(function(){
 		zero = $(window).scrollTop();
 	})
 })
+});
