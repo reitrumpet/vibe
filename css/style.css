@@ -31,6 +31,7 @@ body{
 	height: 39.47px !important;
 	width: 98.19px !important;
 	margin-right: 10px !important;
+	margin-left: 20px !important;
 }
 
 .logoVibeSocial{
@@ -236,7 +237,7 @@ background-attachment: fixed;
 
 .navbar ul li a{
 	display: block;
-	padding: 0 30px;
+	padding: 0 50px;
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
