@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="container top20">
+<div class="container top80">
 	<div class="row">
 		<?php 
 

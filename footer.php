@@ -1,4 +1,3 @@
-
 <div class="fundoRodape1 ">
 	<div class="container-fluid padTop25">
 		<div class="row">
@@ -14,7 +13,7 @@
 	</div>
 </div>
 
-<div class="fundoRodape2 text-center"> 
+<div class="fundoRodape2 text-center">
 	<div class="container-fluid padTop15">
 		<div class="row">
 			<div class="col-12 col-md-12">
@@ -30,7 +29,7 @@
 							<div class="col-12 col-md-6">
 								<?php $template_directory = get_template_directory_uri(); ?>
 								<a href="https://instagram.com/agencia_leva" target="_blank">
-									<img class="logoLeva" src="<?php echo $template_directory;?>/images/logoLevaBranco.png">
+									<img class="logoLeva" src="<?php echo $template_directory; ?>/images/logoLevaBranco.png">
 								</a>
 							</div>
 						</div>
@@ -42,4 +41,5 @@
 </div>
 
 </body>
+
 </html>

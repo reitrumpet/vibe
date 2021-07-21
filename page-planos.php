@@ -26,7 +26,7 @@
 							?>
 							<div class="plano col-12 col-md-12 col-xl-4 floatLeft padTop10">
 								<div class="text-center">
-									<h4 class="BGCinza"><?php the_title(); ?></h4>
+									<h4 class="BGCinza title-planos"><?php the_title(); ?></h4>
 									<h5 class=""><?php the_content(); ?></h5>
 									<div class="valorPlano BGCinza">
 										<div class="ftTamanho35">
@@ -36,7 +36,7 @@
 									</div>
 								</div>
 								<div class="descricaoPlano">
-									<div class="itemPacote ftTamanho15">
+									<div class="itemPacote ftTamanho12">
 
 										<ul class="itens-do-plano">	
 											<?php 
@@ -57,7 +57,7 @@
 									</div>
 									<div class="col-12 btnContato top15">
 										<button type="button" class="btn btn-primary btn negrito borderNone btnPlanos">
-											<a class="link" href="contato">
+											<a class="link" href="contato?plano=<?php the_title(); ?>">
 												Solicitar Contato
 											</a>
 										</button>
@@ -92,7 +92,7 @@
 								?>
 								<div class="plano col-12 col-md-12 col-xl-4 floatLeft padTop10">
 									<div class="text-center">
-										<h4 class="BGCinza"><?php the_title(); ?></h4>
+										<h4 class="BGCinza title-planos"><?php the_title(); ?></h4>
 										<h5 class=""><?php the_content(); ?></h5>
 										<div class="valorPlano BGCinza">
 											<div class="ftTamanho35">
@@ -102,7 +102,7 @@
 										</div>
 									</div>
 									<div class="descricaoPlano">
-										<div class="itemPacote ftTamanho15">
+										<div class="itemPacote ftTamanho12">
 
 											<ul class="itens-do-plano">	
 												<?php 
@@ -123,7 +123,7 @@
 										</div>
 										<div class="col-12 btnContato top15">
 											<button type="button" class="btn btn-primary btn negrito borderNone btnPlanos">
-												<a class="link" href="contato">
+												<a class="link" href="contato?plano=<?php the_title(); ?>">
 													Solicitar Contato
 												</a>
 											</button>

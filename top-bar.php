@@ -1,5 +1,5 @@
 <?php $url = add_query_arg(array(), $wp->request); ?>
-<div class="container-fluid">
+<div class="container">
 <!-- <div class="row">
 	<nav class="navbar navbar-expand-lg navbar-light bgNav z2 ">
 		<div class="logo col-4">

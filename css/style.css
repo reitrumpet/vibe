@@ -610,7 +610,7 @@ background-attachment: fixed;
 	text-align: center;
 }
 /*Facilitador ftTamanho*/
-.ftTamanho10{font-size: 10px;} .ftTamanho15{font-size: 15px;} .ftTamanho17{font-size: 17px;}
+.ftTamanho10{font-size: 10px;} .ftTamanho12{font-size: 12px;} .ftTamanho15{font-size: 15px;} .ftTamanho17{font-size: 17px;}
 .ftTamanho20{font-size: 20px;} .ftTamanho25{font-size: 25px;}
 .ftTamanho30{font-size: 30px !important;} .ftTamanho35{font-size: 35px !important;} .ftTamanho40{font-size: 40px;} .ftTamanho45{font-size: 45px;}
 .ftTamanho50{font-size: 50px;}
@@ -706,4 +706,8 @@ background-attachment: fixed;
 
 .visibility-hidden{
 	visibility: hidden !important;
+}
+.title-planos{
+	font-size: 1.4rem;
+	font-weight: bolder;
 }

@@ -7,7 +7,7 @@
 	// Enquanto houver posts, mostre-os pra gente
 		while(have_posts()):the_post();
 			?>
-			<div class="card col-md-4 match-height">
+			<div class="card col-md-12 col-lg-4 match-height">
 
 				<?php 
 				$image = get_field('imagem_de_capa');
